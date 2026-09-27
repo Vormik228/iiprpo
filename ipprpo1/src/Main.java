@@ -8,7 +8,7 @@ public class Main {
         Ability heal = new Heal();
         Ability dash = new Dash();
 
-        System.out.println("=== СПОСОБНОСТИ ===");
+        System.out.println("=== ABILITIES ===");
         character.useAbility(fireball);
         character.useAbility(heal);
         character.useAbility(dash);
@@ -18,18 +18,18 @@ public class Main {
 
 
         Weapon sword = new Weapon(
-                        "Огненный меч",
+                        "Fire blade",
                         50,
                         enchantment
                 );
 
         Armor armor = new Armor(
-                        "Железная броня",
+                        "Iron armor",
                         30
                 );
 
         Potion potion = new Potion(
-                        "Зелье лечения",
+                        "Healing flask",
                         40
                 );
 
