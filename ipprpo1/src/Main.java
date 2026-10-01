@@ -10,6 +10,7 @@ public class Main {
 
         System.out.println("=== СПОСОБНОСТИ ПЕРСОНАЖА===");
         character.useAbility(fireball);
+        character.useAbility(heal);
         character.useAbility(dash);
 
 
