@@ -9,7 +9,8 @@ public class Potion extends Item {
 
     @Override
     public void use() {
-        System.out.println("Использовано зелье: " + getName() + ". Восстановлено здоровья: " + healing);
+        System.out.println("Использовано зелье: " + getName()
+                + ". Восстановлено HP: " + healing);
     }
 
 }
